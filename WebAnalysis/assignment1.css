@@ -25,7 +25,7 @@ a {
 
 .container {
   /* max-width: 1000px; */
-  margin: 25px auto;
+  margin: 25px 0 0 30px;
   padding: 0 20px;
   overflow: hidden;
   font-family: Helvetica;
@@ -81,7 +81,7 @@ p1 {
 .nav-links a {
   width: 100%;
   text-align: left;
-  padding: 10px 0 10px 10px;
+  padding: 20px 0 18px 10px;
   color: black;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
