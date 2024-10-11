@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "EB Garamond", serif;
+  /* background-color: black; */
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.curve {
+  background-color: transparent;
+}
+
+.text {
+  font-size: 1.1rem;
+  fill: black;
+  letter-spacing: 3px;
+}
+
+svg {
+  background-color: transparent;
+}
+
+.bug {
+  position: absolute;
+  top: 12%;
+  right: 26%;
+  width: 120px;
+  height: auto;
+}
+
+h {
+  position: absolute;
+  bottom: 22%;
+  right: 22%;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,28 @@
+@media only screen and (max-width: 600px) {
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: url("../assets/Helvetica.ttf");
+}
+
+main {
+  width: 100%;
+  max-width: 100%;
+  margin-top: auto;
+  font-family: Helvetica;
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 0.95rem;
+}
+
+a {
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 0.9rem;
+  color: black;
+}

@@ -1,0 +1,240 @@
+@font-face {
+  font-family: Helvetica;
+  src: url("../assets/Helvetica.ttf");
+}
+
+body {
+  height: 100vh;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-container {
+  max-width: 100vw;
+  margin: 0 auto;
+  padding: 0 auto;
+  /* background-color: #e5e2d7; */
+}
+
+.navbar {
+  position: fixed;
+  margin: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  z-index: 10;
+  padding: 15px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* justify-content: right; */
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  display: block;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #e9eae7;
+  /* border-radius: 5px; */
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* .container {
+  width: 100vw;
+  height: auto;
+  padding-top: 80px;
+} */
+
+section {
+  height: 100vh;
+  position: relative;
+  color: Black;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  position: relative;
+  padding-bottom: 30px;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div1 p {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  max-width: 400px;
+  color: #393836;
+  padding: 18px;
+  font-size: 28px;
+  /* background-color: #1e1d1a; */
+  /* writing-mode: vertical-rl; */
+  /* text-orientation: upright; */
+}
+
+.div1 .follow-up {
+  position: absolute;
+  max-width: 450px;
+  bottom: 25%;
+  left: 8%;
+  font-size: 36px;
+  color: #393836;
+  padding: 10px 0;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.img {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#img-one {
+  background-image: url("../Climate/globalwarming.jpg");
+  background-size: 50%;
+  background-position: right;
+  background-repeat: no-repeat;
+  filter: grayscale(50%);
+}
+
+#img-two {
+  background-image: url("../Climate/sky.jpg");
+  /* background-color: black; */
+}
+
+.content-one {
+  background-size: cover;
+  background-color: transparent;
+}
+
+.content-two {
+  background: url("../Climate/tennessee-power-plant.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+.content-three {
+  background-size: cover;
+}
+
+.content-four {
+  background: url("../Climate/sky.jpg") no-repeat fixed center;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.text-box {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  /* bottom: 25%; */
+  text-align: center;
+  background-color: rgba(233, 234, 231, 0.3);
+  transform-origin: center center;
+  backdrop-filter: blur(3px);
+}
+
+.text-box .cnt {
+  display: inline-block;
+  text-align: left;
+  margin: 10px 0 0 10px;
+  width: 100%;
+  max-width: 990px;
+}
+
+.cnt h1 {
+  margin: 40px 0 40px 0;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+.cnt p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.notext-box {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  /* bottom: 25%; */
+  text-align: center;
+  transform-origin: center center;
+  backdrop-filter: blur(3px);
+}
+
+.notext-box .cnt1 {
+  display: inline-block;
+  text-align: left;
+  margin: 10px 0 0 10px;
+  width: 100%;
+  max-width: 990px;
+  /* transform-origin: right center; */
+  /* transform: skew(0, 8deg); */
+}
+
+.cnt1 h1 {
+  margin: 40px 0 40px 0;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+
+.cnt1 p {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
