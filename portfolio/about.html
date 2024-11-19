@@ -58,16 +58,30 @@
       </ul>
     </div>
 
-    <div class="hero">
-      <div class="header">
-        <img src="../portfolio/xujinhao.png" alt="me" class="float-image" />
-        <h1>
-          Hello, I'm Jinhao<br />
-          Welcome to my portfolio website. I'm learning on the game path and you
-          can explore some of my projects here.
-        </h1>
-      </div>
-    </div>
+    <main>
+      <figure class="img1">
+        <img src="../portfolio/bg1.png" alt="img1" />
+      </figure>
+      <figure class="img2">
+        <img src="../portfolio/bg2.png" alt="img2" />
+      </figure>
+      <dl class="about">
+        <dt>⊹ Hello again</dt>
+        <dd>
+          I am a game designer currently pursuing a BFA in Design and Technology
+          at Parsons School of Design. I'd like to combine diverse artistic and
+          technical disciplines to create playful, innovative experiences that
+          challenge conventional notions of design and creativity.
+        </dd>
+
+        <dt>⊹ Skills</dt>
+        <dd>Unity / Figma / C# / PS / AI / Blender / Programming</dd>
+
+        <dt>⊹ Experience</dt>
+        <dd><em>Education:</em> Parsons School of Design (2022 - Present)</dd>
+        <dd><em>Professional:</em> DBC (2023) - Book design project</dd>
+      </dl>
+    </main>
 
     <div class="marquee">
       <div class="content">
@@ -135,9 +149,8 @@
         ease: Expo.easeInOut,
       });
 
-      TweenMax.from(".content", 1, {
+      TweenMax.from("main", 1, {
         delay: 0.4,
-        y: 10,
         opacity: 0,
         ease: Expo.easeInOut,
       });
